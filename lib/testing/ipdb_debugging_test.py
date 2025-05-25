@@ -6,5 +6,5 @@ class TestIpdbDebugging:
     '''ipdb_debugging.py'''
     
     def test_adds_two(self):
-        '''adds_two() adds 2 to input arg and returns sum.'''
+        returned_value = plus_two(3)
         assert(plus_two(3) == 5)
